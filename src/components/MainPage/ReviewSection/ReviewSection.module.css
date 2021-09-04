@@ -1,0 +1,70 @@
+.reviewsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headingWrapper {
+    background-color: #171616;
+    min-height: 55px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.heading {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.heading::before {
+    content: "";
+    background-image: url("../../../images/review.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: -13px;
+    left: -70px;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+
+    .headingWrapper {
+        min-height: 45px;
+    }
+
+    .heading {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .heading::before {
+        width: 50px;
+        height: 40px;
+        background-size: 50px 40px;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+
+    .headingWrapper {
+        min-height: 35px;
+    }
+
+    .heading {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .heading::before {
+        width: 40px;
+        height: 30px;
+        background-size: 40px 30px;
+        top: -8px;
+        left: -50px;
+    }
+}

@@ -1,0 +1,168 @@
+.menu {
+    background-color: #000;
+    min-height: 60px;
+}
+
+.menuContainer {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.menuLink,
+.logoutButton {
+    color: #fff;
+    display: inline-block;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 100%;
+    padding: 18px 10px 2px;
+    text-decoration: none;
+    position: relative;
+}
+
+.menuLink:hover {
+    background-color: #907515;
+}
+
+.menuLinkActive {
+    color: #907515;
+}
+
+.menuLinkActive:hover {
+    background-color: #000;
+}
+
+.signUpLink,
+.signInLink {
+    padding-left: 40px;
+}
+
+.signUpLink::before,
+.signInLink::before,
+.logoutButton::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+.signUpLink::before {
+    background-image: url("../../images/sign_up.svg");
+    top: 15px;
+    left: 5px;
+}
+
+.signInLink::before {
+    background-image: url("../../images/sign_in.svg");
+    top: 16px;
+    left: 5px;
+}
+
+.logoutButton::before {
+    background-image: url("../../images/sign_out.svg");
+    top: 16px;
+    left: -20px;
+}
+
+.menuLinkActive.signUpLink::before {
+    background-image: url("../../images/sign_up_gold.svg");
+}
+
+.menuLinkActive.signInLink::before {
+    background-image: url("../../images/sign_in_gold.svg");
+}
+
+.logoutButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .menuContainer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .menuLink,
+    .logoutButton {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+
+    .menuContainer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menuLink,
+    .logoutButton {
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .signUpLink,
+    .signInLink {
+        padding-left: 26px;
+    }
+
+    .signUpLink::before,
+    .signInLink::before,
+    .logoutButton::before {
+        background-size: 16px 16px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .signInLink::before {
+        top: 20px;
+        left: 8px;
+    }
+
+    .logoutButton::before {
+        top: 20px;
+        left: -15px;
+    }
+
+    .signUpLink::before {
+        top: 19px;
+        left: 5px;
+    }
+
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+
+    .menu .desktopMenu {
+        display: none;
+    }
+
+}

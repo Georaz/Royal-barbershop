@@ -1,0 +1,66 @@
+.officeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.officeWrapper {
+    display: flex;
+    padding-bottom: 100px;
+    max-width: 880px;
+}
+
+.formWrapper {
+    min-width: 300px;
+    margin-right: 50px;
+}
+
+.heading {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.datePickerWrapper {
+    min-width: 300px;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .officeWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .datePickerWrapper {
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+    .formWrapper {
+        order: 2;
+        margin-right: 0;
+        align-items: center;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    .officeWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .datePickerWrapper {
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+    .formWrapper {
+        order: 2;
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+}

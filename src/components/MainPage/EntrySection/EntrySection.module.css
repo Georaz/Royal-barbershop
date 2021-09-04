@@ -1,0 +1,198 @@
+.entryContainer {
+    max-width: 1200px;
+    margin-top: 160px;
+}
+
+.titleText {
+    max-width: 640px;
+    margin: 0 auto 80px;
+    position: relative;
+}
+
+.titleText::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../../images/left-quote.svg");
+    width: 180px;
+    height: 180px;
+    top: -54px;
+    left: -142px;
+}
+
+.titleText::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../../images/right-quote.svg");
+    width: 180px;
+    height: 180px;
+    bottom: -18px;
+    right: -158px;
+}
+
+.titleText p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 0 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.advantages {
+    margin: 0 auto -2px;
+}
+
+.advantages tr {
+    display: flex;
+}
+
+.advantagesItem {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 235px;
+    height: 163px;
+    padding-top: 30px;
+}
+
+.scissors {
+    background-color: #100f0f;
+}
+
+.razor {
+    background-color: #171616;
+}
+
+.barber {
+    background-color: #1f1d1d;
+}
+
+.advantagesItem img {
+    margin-bottom: 31px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .entryContainer {
+        margin-top: 100px;
+    }
+
+    .titleText {
+        max-width: 550px;
+    }
+
+    .titleText p {
+        font-size: 18px;
+    }
+
+    .titleText::before {
+        width: 140px;
+        height: 140px;
+        background-size: 140px 140px;
+        top: -50px;
+        left: -95px;
+    }
+
+    .titleText::after {
+        width: 140px;
+        height: 140px;
+        background-size: 140px 140px;
+        bottom: -25px;
+        right: -95px;
+    }
+
+    .advantagesItem {
+        font-size: 16px;
+        width: 200px;
+        height: 140px;
+        padding-top: 21px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .entryContainer {
+        margin-top: 50px;
+    }
+
+    .titleText {
+        max-width: 400px;
+    }
+
+    .titleText p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .titleText::before {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        top: -40px;
+        left: -25px;
+    }
+
+    .titleText::after {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        bottom: -25px;
+        right: -25px;
+    }
+
+    .advantagesItem {
+        font-size: 16px;
+        width: 152px;
+        height: 130px;
+        padding: 10px 0 0;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    .entryContainer {
+        margin-top: 40px;
+    }
+
+    .titleText {
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .titleText p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .titleText::before {
+        width: 50px;
+        height: 50px;
+        background-size: 50px 50px;
+        top: -20px;
+        left: 5px;
+    }
+
+    .titleText::after {
+        width: 50px;
+        height: 50px;
+        background-size: 50px 50px;
+        bottom: -15px;
+        right: 5px;
+    }
+
+    .advantages tr {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .advantagesItem {
+        font-size: 16px;
+        width: 160px;
+        height: 130px;
+        padding: 10px 0 0;
+    }
+}

@@ -1,0 +1,11 @@
+export const ADD_COMMENT = "ADD_COMMENT";
+export const DELETE_COMMENT = "DELETE_COMMENT";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const LOGOUT = "AUTH_FAIL";
+export const ASSIGN = "ASSIGN";
+export const DELETE_ASSIGN = "DELETE_ASSIGN";
+export const ASSIGN_LIMIT = "ASSIGN_LIMIT";
+export const ASSIGN_POSSIBLE = "ASSIGN_POSSIBLE";
+export const ASSIGN_SORT = "ASSIGN_SORT";
+export const CHANGE_DATA = "CHANGE_DATA";
+export const SHOW_POPUP = "SHOW_POPUP";

@@ -1,0 +1,48 @@
+.avatarWrapper {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.slideText {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .name {
+        font-size: 18px;
+    }
+
+    .slideText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+
+    .avatarWrapper {
+        margin-right: 0;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .textWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .slideText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

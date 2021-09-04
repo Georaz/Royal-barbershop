@@ -1,0 +1,321 @@
+.mapContainer {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mapWrapper {
+    height: 350px;
+    width: 500px;
+}
+
+.contactsContainer {
+    max-width: 1200px;
+    display: flex;
+    padding: 20px 0 30px;
+    margin: 0 auto;
+}
+
+.headingWrapper {
+    background-color: #171616;
+    min-height: 55px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.heading {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.heading::before {
+    content: "";
+    background-image: url("../../../images/communicate.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -13px;
+    left: -70px;
+}
+
+.contentWrapper {
+    display: flex;
+    margin: 0 auto;
+}
+
+.textWrapper {
+    margin-right: 50px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text p {
+    margin-bottom: 40px;
+}
+
+.address {
+    position: relative;
+}
+
+.address::before {
+    content: "";
+    background: url("../../../images/location.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -8px;
+    left: -40px;
+}
+
+.phone,
+.email {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.phone::before {
+    content: "";
+    background: url("../../../images/mobile-app.svg") no-repeat;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -8px;
+    left: -40px;
+}
+
+.email::before {
+    content: "";
+    background: url("../../../images/mail.svg") no-repeat;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -8px;
+    left: -40px;
+}
+
+.schedule {
+    text-align: center;
+}
+
+.socialMedia {
+    display: flex;
+}
+
+.socialMedia a {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.socialMedia .vk {
+    background: url("../../../images/vk.svg") no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+}
+
+.facebook {
+    background: url("../../../images/facebook.svg") no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram {
+    background: url("../../../images/instagram.svg") no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .textWrapper {
+        margin-right: 40px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .socialMedia .vk,
+    .facebook,
+    .instagram {
+        width: 45px;
+        height: 45px;
+        background-size: 45px 45px;
+    }
+
+    .mapContainer {
+        max-width: 400px;
+    }
+
+    .mapWrapper {
+        max-width: 400px;
+    }
+
+    .address::before {
+        width: 35px;
+        height: 35px;
+        background-size: 35px 35px;
+        top: -8px;
+        left: -40px;
+    }
+
+    .phone::before {
+        width: 35px;
+        height: 35px;
+        background-size: 35px 35px;
+        top: -8px;
+        left: -40px;
+    }
+
+    .email::before {
+        width: 35px;
+        height: 35px;
+        background-size: 35px 35px;
+        top: -8px;
+        left: -40px;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+
+    .mapContainer {
+        max-width: 460px;
+    }
+
+    .mapWrapper {
+        max-width: 460px;
+    }
+
+    .contentWrapper {
+        flex-direction: column;
+    }
+
+    .textWrapper {
+        display: flex;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
+    .headingWrapper {
+        min-height: 45px;
+    }
+
+    .heading {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .heading::before {
+        width: 50px;
+        height: 40px;
+        background-size: 50px 40px;
+        top: -10px;
+        left: -60px;
+    }
+
+    .text {
+        font-size: 18px;
+        flex-grow: 2;
+    }
+
+    .text p {
+        margin-bottom: 30px;
+    }
+
+    .socialMedia .vk,
+    .facebook,
+    .instagram {
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .socialMedia .vk {
+        margin-left: 20px;
+    }
+
+    .socialMedia {
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    .mapContainer {
+        max-width: 320px;
+        max-height: 250px;
+    }
+
+    .mapWrapper {
+        max-width: 303px;
+    }
+
+    .contentWrapper {
+        flex-direction: column;
+    }
+
+    .textWrapper {
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+    .headingWrapper {
+        min-height: 35px;
+    }
+
+    .heading {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .heading::before {
+        width: 40px;
+        height: 30px;
+        background-size: 40px 30px;
+        top: -8px;
+        left: -50px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .text p {
+        margin-bottom: 30px;
+    }
+
+    .socialMedia .vk,
+    .facebook,
+    .instagram {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
+        margin: 10px 0 10px 40px;
+    }
+
+    .socialMedia .vk {
+        margin-left: 0;
+    }
+
+    .socialMedia {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+}
