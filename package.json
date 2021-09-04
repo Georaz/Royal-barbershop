@@ -1,4 +1,5 @@
 {
+  "homepage": "https://georaz.github.io/royal-barbershop",
   "name": "royal",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +26,8 @@
     "yup-phone": "^1.2.19"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
     ">0.2%",
     "not dead",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }

@@ -16,7 +16,7 @@ const MobileMenu = (props) => {
             <ul id={c.mobileMenu}>
                 <li><NavLink className={c.menuLink}
                              activeClassName={c.menuLinkActive}
-                             exact to="/"
+                             exact to="/royal-barbershop"
                              onClick={clickedMenuLink}
                 >Главная</NavLink></li>
                 <li><NavLink className={c.menuLink}
