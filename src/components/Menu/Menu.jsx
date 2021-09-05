@@ -10,7 +10,7 @@ const Menu = (props) => {
                     <ul className={c.desktopMenu}>
                         <li><NavLink className={c.menuLink}
                                      activeClassName={c.menuLinkActive}
-                                     exact to="/royal-barbershop">Главная</NavLink></li>
+                                     exact to="/">Главная</NavLink></li>
                         <li><NavLink className={c.menuLink}
                                      activeClassName={c.menuLinkActive}
                                      to="/price-list">Услуги и цены</NavLink></li>

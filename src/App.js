@@ -19,7 +19,7 @@ const App = () => {
             <MenuContainer/>
             <main>
                 <Switch>
-                    <Route component={MainPageContainer} exact path="/royal-barbershop"/>
+                    <Route component={MainPageContainer} exact path="/"/>
                     <Route component={PriceList} exact path="/price-list"/>
                     <Route component={SkinNailCare} path="/price-list/skin-nail-care"/>
                     <Route component={Haircut} path="/price-list/haircut"/>
