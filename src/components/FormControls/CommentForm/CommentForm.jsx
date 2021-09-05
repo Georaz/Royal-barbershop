@@ -21,7 +21,7 @@ const CommentForm = (props) => {
             >
                 {({isSubmitting}) => (
                     <Form className={c.commentForm}>
-                        {props.commentAdded
+                        {props.commentAdded || !props.isAuth
                             ? null
                             : <Field name="commentField" component="textarea" className={c.commentField}/>
                         }
