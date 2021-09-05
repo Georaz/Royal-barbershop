@@ -13,12 +13,12 @@ const rootReducer = combineReducers({
 let ls = window.localStorage;
 const store = createStore(rootReducer, applyMiddleware(thunk));
 ls['store'] = JSON.stringify(store.getState())
-
+//ls.clear();
 //-------localStorage---------
-// const store = createStore(rootReducer, JSON.parse(ls['store']));
+//const store = createStore(rootReducer, JSON.parse(ls['store']));
 //
 // store.subscribe(() => {
-//     ls['store'] = JSON.stringify(store.getState())
-// })
+//      ls['store'] = JSON.stringify(store.getState())
+//  })
 
 export default store;
