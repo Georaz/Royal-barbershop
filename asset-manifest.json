@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/royal-barbershop/static/css/main.3fcda720.chunk.css",
+    "main.js": "/royal-barbershop/static/js/main.94356924.chunk.js",
+    "main.js.map": "/royal-barbershop/static/js/main.94356924.chunk.js.map",
+    "runtime-main.js": "/royal-barbershop/static/js/runtime-main.2e54a939.js",
+    "runtime-main.js.map": "/royal-barbershop/static/js/runtime-main.2e54a939.js.map",
+    "static/css/2.5b6aa3d4.chunk.css": "/royal-barbershop/static/css/2.5b6aa3d4.chunk.css",
+    "static/js/2.a294974a.chunk.js": "/royal-barbershop/static/js/2.a294974a.chunk.js",
+    "static/js/2.a294974a.chunk.js.map": "/royal-barbershop/static/js/2.a294974a.chunk.js.map",
+    "static/js/3.c5f93ea9.chunk.js": "/royal-barbershop/static/js/3.c5f93ea9.chunk.js",
+    "static/js/3.c5f93ea9.chunk.js.map": "/royal-barbershop/static/js/3.c5f93ea9.chunk.js.map",
+    "index.html": "/royal-barbershop/index.html",
+    "static/css/2.5b6aa3d4.chunk.css.map": "/royal-barbershop/static/css/2.5b6aa3d4.chunk.css.map",
+    "static/css/main.3fcda720.chunk.css.map": "/royal-barbershop/static/css/main.3fcda720.chunk.css.map",
+    "static/js/2.a294974a.chunk.js.LICENSE.txt": "/royal-barbershop/static/js/2.a294974a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/royal-barbershop/static/media/IBMPlexSerif-SemiBold.6c3d50e2.woff",
+    "static/media/barber.d86efcd7.svg": "/royal-barbershop/static/media/barber.d86efcd7.svg",
+    "static/media/TitleBackground.module.css": "/royal-barbershop/static/media/bg_main.210a8ce0.png",
+    "static/media/close.e7052401.svg": "/royal-barbershop/static/media/close.e7052401.svg",
+    "static/media/ContactsSection.module.css": "/royal-barbershop/static/media/vk.5624b313.svg",
+    "static/media/conor.3acf78c9.jpg": "/royal-barbershop/static/media/conor.3acf78c9.jpg",
+    "static/media/Service.module.css": "/royal-barbershop/static/media/crown-white.6f43aa6f.svg",
+    "static/media/Footer.module.css": "/royal-barbershop/static/media/logo.c5c416f9.svg",
+    "static/media/EntrySection.module.css": "/royal-barbershop/static/media/right-quote.7623c416.svg",
+    "static/media/pin.f72f22c8.svg": "/royal-barbershop/static/media/pin.f72f22c8.svg",
+    "static/media/razor.7e690c3a.svg": "/royal-barbershop/static/media/razor.7e690c3a.svg",
+    "static/media/ReviewSection.module.css": "/royal-barbershop/static/media/review.f3248c90.svg",
+    "static/media/scissors.4a8e5728.svg": "/royal-barbershop/static/media/scissors.4a8e5728.svg",
+    "static/media/shadowpin.a6fcc69b.svg": "/royal-barbershop/static/media/shadowpin.a6fcc69b.svg",
+    "static/media/MobileMenu.module.css": "/royal-barbershop/static/media/sign_up_gold.6d3da9ae.svg",
+    "static/media/snake.27cacbb9.jpg": "/royal-barbershop/static/media/snake.27cacbb9.jpg",
+    "static/media/x.73f63bc6.jpg": "/royal-barbershop/static/media/x.73f63bc6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e54a939.js",
+    "static/css/2.5b6aa3d4.chunk.css",
+    "static/js/2.a294974a.chunk.js",
+    "static/css/main.3fcda720.chunk.css",
+    "static/js/main.94356924.chunk.js"
+  ]
+}
