@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/royal-barbershop/static/css/main.3fcda720.chunk.css",
-    "main.js": "/royal-barbershop/static/js/main.94356924.chunk.js",
-    "main.js.map": "/royal-barbershop/static/js/main.94356924.chunk.js.map",
+    "main.js": "/royal-barbershop/static/js/main.e07ce089.chunk.js",
+    "main.js.map": "/royal-barbershop/static/js/main.e07ce089.chunk.js.map",
     "runtime-main.js": "/royal-barbershop/static/js/runtime-main.2e54a939.js",
     "runtime-main.js.map": "/royal-barbershop/static/js/runtime-main.2e54a939.js.map",
     "static/css/2.5b6aa3d4.chunk.css": "/royal-barbershop/static/css/2.5b6aa3d4.chunk.css",
@@ -37,6 +37,6 @@
     "static/css/2.5b6aa3d4.chunk.css",
     "static/js/2.a294974a.chunk.js",
     "static/css/main.3fcda720.chunk.css",
-    "static/js/main.94356924.chunk.js"
+    "static/js/main.e07ce089.chunk.js"
   ]
 }
