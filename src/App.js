@@ -20,13 +20,13 @@ const App = () => {
             <main>
                 <Switch>
                     <Route component={MainPageContainer} exact path="/royal-barbershop"/>
-                    <Route component={PriceList} exact path="/royal-barbershop/price-list"/>
-                    <Route component={SkinNailCare} path="/royal-barbershop/price-list/skin-nail-care"/>
-                    <Route component={Haircut} path="/royal-barbershop/price-list/haircut"/>
-                    <Route component={Shaving} path="/royal-barbershop/price-list/shaving"/>
-                    <Route component={RegForm} path="/royal-barbershop/registration"/>
-                    <Route component={AuthContainer} path="/royal-barbershop/auth"/>
-                    <Route component={OfficeContainer} path="/royal-barbershop/office"/>
+                    <Route component={PriceList} exact path="/price-list"/>
+                    <Route component={SkinNailCare} path="/price-list/skin-nail-care"/>
+                    <Route component={Haircut} path="/price-list/haircut"/>
+                    <Route component={Shaving} path="/price-list/shaving"/>
+                    <Route component={RegForm} path="/registration"/>
+                    <Route component={AuthContainer} path="/auth"/>
+                    <Route component={OfficeContainer} path="/office"/>
                     <Route component={Page404} />
                 </Switch>
             </main>
